@@ -1,0 +1,70 @@
+
+
+
+@media (min-width: 992px) {
+    .custom-col {
+      flex: 0 0 20% !important;
+      max-width: 20% !important;
+    }
+  }
+ 
+  body{
+
+
+    /* background-color: #00B2FF !important; */
+    background-color: black !important;
+  }
+
+
+ .heading h2{
+    color:#E50914 ;
+    letter-spacing: 10px;
+    font-weight: bold;
+ }
+
+.profile-section{
+    margin: 70px 0;
+}
+
+  .profile-section .card {
+    text-align: center;
+    align-items: center;
+    border: none;
+    border-radius: 15px;
+    background-color: #555555;
+    color: white;
+    transition:  0.3s ease-in-out !important;
+  }
+  .profile-section .card:hover{
+   
+    background-color: #E50914;
+    /* color: black; */
+    
+  }
+
+button{
+    border: none !important;
+    transition:  0.2s ease-in-out !important;
+    font-weight: bold !important;
+    letter-spacing: 1px;
+}
+
+
+  button:hover{
+    background-color: #E50914 !important;
+    color: black !important;
+  }
+  .profile-section .card img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    /* object-fit: cover; */
+  }
+
+    
+
+   .table-custom{
+    border-radius: 15px; /* Adjust the radius as needed */
+      overflow: hidden; /* Ensures rounded corners are applied */
+   }
